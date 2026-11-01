@@ -6,4 +6,4 @@ import com.example.ud4_ejercicio.R
 data class Hamburguesa(
     val tipoCarne: String = "",
     val isQueso: Boolean = false
-): Producto(imagen = R.drawable.hamburguesa, precio = 9.5)
+): Producto(imagen = R.drawable.hamburguesa, nombre = "Hamburguesa")
